@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Admin Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+<link rel="icon" href="./assets/images/shopease-icon.svg?v=2" type="image/svg+xml">
+
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+
+    <a href="index.html" class="logo">
+        <svg class="logo-icon" viewBox="0 0 50 50"
+             xmlns="http://www.w3.org/2000/svg">
+            <rect x="7" y="17" width="36" height="28"
+                  rx="5" fill="#173F35"/>
+            <path d="M17 19 V14 A8 8 0 0 1 33 14 V19"
+                  fill="none" stroke="#B99A62"
+                  stroke-width="3" stroke-linecap="round"/>
+            <text x="25" y="36" text-anchor="middle"
+                  font-size="17" font-weight="bold"
+                  fill="#F5F2EA">S</text>
+        </svg>
+
+        <span>ShopEase</span>
+    </a>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="cart.html">Cart</a>
+        <a href="login.html">Login</a>
+        <a href="admin.html">Admin</a>
+    </div>
+
+</nav>
+<section class="featured">
+
+    <h2>Admin Dashboard</h2>
+
+    <div class="admin-container">
+
+        <h3>Add New Product</h3>
+
+        <form id="admin-form">
+
+            <label for="product-name">Product Name</label>
+            <input type="text" id="product-name"
+                placeholder="Enter product name" required>
+
+            <label for="product-price">Price ($)</label>
+            <input type="number" id="product-price"
+                placeholder="Enter price" min="0.01" step="0.01" required>
+
+            <label for="product-category">Category</label>
+            <select id="product-category" required>
+                <option value="">Select Category</option>
+                <option value="electronics">Electronics</option>
+                <option value="jewelery">Jewellery</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="women's clothing">Women's Clothing</option>
+            </select>
+
+            <label for="product-image">Image URL</label>
+            <input type="url" id="product-image"
+                placeholder="Enter image URL" required>
+
+            <label for="product-description">Description</label>
+            <textarea id="product-description"
+                placeholder="Enter product description" required></textarea>
+
+            <button type="submit" class="product-btn">
+                Add Product
+            </button>
+
+        </form>
+
+    </div>
+
+    <h3>Manage Products</h3>
+
+    <div id="admin-products-container">
+        <p>Products will appear here.</p>
+    </div>
+
+</section>
+
+<footer>
+    <h2>ShopEase</h2>
+    <p>Your shopping, made easier.</p>
+    <p>© 2026 ShopEase. All rights reserved.</p>
+</footer>
+
+<script src="js/admin.js"></script>
+<script src="js/auth.js"></script>
+
+</body>
+</html>

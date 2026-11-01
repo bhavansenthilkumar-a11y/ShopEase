@@ -1,0 +1,13 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+    <rect width="50" height="50" rx="10" fill="#173F35"/>
+    <path d="M15 20 V15 A10 10 0 0 1 35 15 V20"
+          fill="none" stroke="#B99A62"
+          stroke-width="3" stroke-linecap="round"/>
+    <rect x="8" y="19" width="34" height="25"
+          rx="5" fill="#173F35" stroke="#B99A62"
+          stroke-width="2"/>
+    <text x="25" y="37" text-anchor="middle"
+          font-size="19" font-weight="bold"
+          fill="#F5F2EA">S</text>
+</svg>
