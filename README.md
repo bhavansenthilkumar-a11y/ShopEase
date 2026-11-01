@@ -1,4 +1,5 @@
 # ShopEase – E-Commerce Storefront
+
 ## Live Demo
 
 [Visit ShopEase](https://bhavansenthilkumar-a11y.github.io/ShopEase/)
