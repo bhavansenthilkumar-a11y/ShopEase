@@ -2,6 +2,7 @@
 ## Live Demo
 
 [Visit ShopEase](https://bhavansenthilkumar-a11y.github.io/ShopEase/)
+
 ShopEase is a responsive e-commerce storefront developed using HTML, CSS, and JavaScript. It allows users to browse products, search and filter items, manage their shopping cart, place orders, and track their order history.
 
 ## Features
